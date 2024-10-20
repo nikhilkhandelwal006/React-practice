@@ -1,14 +1,14 @@
 export const SeriesCard=({curElem})=>{
-console.log(props)
+// console.log(props)
 // const {curElem}=props
-const {id,img_url, name, rating, description, cast, genre, watch_url}=props.curElem
+const {id,img_url, name, rating, description, cast, genre, watch_url}=curElem
 return(
     <li >
       <div>
         <img
           src={img_url}
           alt={name}
-          width="30%"
+          width="30%" 
           height="30%"
         />
       </div>
